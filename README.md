@@ -26,7 +26,7 @@ Download the latest version from [here](https://github.com/stefanzone/geocode-sd
 #### Parse the GeoCodeEndpoint for Address MetaData.
 ```java
 final GeoCodeEndpoint geoCodeEndpoint = GeoCode.getAddress(
-"Lothstraße 34"
+      "Lothstraße 34"
 );
 
 // Information about the address.
