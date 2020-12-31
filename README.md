@@ -65,7 +65,7 @@ System.out.println("Distance in Words: " + routingEndpoint.getSummary().getDista
 
 // All steps of the calculated route.
 for (Step step : routingEndpoint.getRoute()) {
-      System.out.println("Instruktion: " + step.getInstruction());
+      System.out.println("Instruction: " + step.getInstruction());
 }
 ```
 
