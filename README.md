@@ -9,7 +9,7 @@ The GeoCode Routing API SDK for Java enables Java developers to easily work with
 
 #### From Git
 
-Halma can be installed via [Git](https://git-scm.com/downloads). Run this command from your terminal.
+The Java SDK for the GeoCode Routing API can be installed via [Git](https://git-scm.com/downloads). Run this command from your terminal.
 
 ```bash
 $ git clone https://github.com/stefanzone/geocode-sdk-for-java.git
