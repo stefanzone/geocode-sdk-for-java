@@ -30,7 +30,7 @@ public class Fetch {
             // Abfrage des HTTP Status Codes.
             int responseCode = conn.getResponseCode();
 
-            // TODO: Hinzufügen einer bessereren Fehlerbehandlung.
+            // Bei der Bearbeitung der Anfrage ist ein Fehler aufgetreten.
             if (responseCode != 200) {
                 throw new RuntimeException("HttpResponseCode: " + responseCode);
             }
@@ -44,10 +44,12 @@ public class Fetch {
 
             // Schließen des Scanners.
             scanner.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
-        return inline.toString();
+            // Ausgabe der erhaltenen Daten.
+            return inline.toString();
+        } catch (Exception e) {
+            // Es ist ein Fehler aufgetreten.
+            return null;
+        }
     }
 }
