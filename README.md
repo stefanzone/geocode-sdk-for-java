@@ -12,7 +12,7 @@ The GeoCode Routing API SDK for Java enables Java developers to easily work with
 The Java SDK for the GeoCode Routing API can be installed via [Git](https://git-scm.com/downloads). Run this command from your terminal.
 
 ```bash
-$ git clone https://github.com/stefanzone/geocode-sdk-for-java.git
+git clone https://github.com/stefanzone/geocode-sdk-for-java.git
 ```
 
 #### Download as ZIP archive
