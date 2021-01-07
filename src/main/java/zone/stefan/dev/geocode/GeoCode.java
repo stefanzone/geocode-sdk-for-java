@@ -12,9 +12,12 @@ import org.apache.http.client.utils.URIBuilder;
  * @version 2020-12-31
  */
 
-public class GeoCode {
+public final class GeoCode {
     // Initialisierung des Gson Parsers.
     final static Gson gson = new Gson();
+
+    // Privater Konstruktor.
+    private GeoCode() {}
 
     /**
      * Rückgabe von Ortsangaben zu einer gegebenen Adresse.
