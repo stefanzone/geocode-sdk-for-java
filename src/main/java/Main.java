@@ -18,7 +18,7 @@ public class Main {
       System.out.println("Information about the address.");
       System.out.println("----");
       getAddress(
-          ""
+          "Lothstraße 34"
       );
 
       System.out.println();
