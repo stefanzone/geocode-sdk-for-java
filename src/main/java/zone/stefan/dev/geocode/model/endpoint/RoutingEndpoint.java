@@ -5,7 +5,7 @@ import zone.stefan.dev.geocode.model.Summary;
 
 import java.util.List;
 
-/*
+/**
  * RoutingEndpoint.java
  * @author Stefan Kühnel, stefan.kuehnel@hm.edu
  * @version 2020-12-31

@@ -6,7 +6,7 @@ import zone.stefan.dev.geocode.model.endpoint.RoutingEndpoint;
 import zone.stefan.dev.geocode.http.Fetch;
 import org.apache.http.client.utils.URIBuilder;
 
-/*
+/**
  * GeoCode.java
  * @author Stefan Kühnel, stefan.kuehnel@hm.edu
  * @version 2020-12-31

@@ -3,7 +3,7 @@ package zone.stefan.dev.geocode.model.endpoint;
 import zone.stefan.dev.geocode.model.Address;
 import zone.stefan.dev.geocode.model.Position;
 
-/*
+/**
  * GeoCodeEndpoint.java
  * @author Stefan Kühnel, stefan.kuehnel@hm.edu
  * @version 2020-12-31
