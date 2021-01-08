@@ -91,4 +91,4 @@ Please see [CONTRIBUTING](https://github.com/stefanzone/geocode-sdk-for-java/blo
 
 ## License
 
-&copy; 2020 [Stefan Kühnel](https://stefan.zone), All Rights reserved.
+&copy; 2021 [Stefan Kühnel](https://stefan.zone), All Rights reserved.
