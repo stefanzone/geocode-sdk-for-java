@@ -16,31 +16,15 @@ public class Summary {
         return location;
     }
 
-    public void setLocation(Location location) {
-        this.location = location;
-    }
-
     public Duration getDuration() {
         return duration;
-    }
-
-    public void setDuration(Duration duration) {
-        this.duration = duration;
     }
 
     public Distance getDistance() {
         return distance;
     }
 
-    public void setDistance(Distance distance) {
-        this.distance = distance;
-    }
-
     public String getText() {
         return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 }

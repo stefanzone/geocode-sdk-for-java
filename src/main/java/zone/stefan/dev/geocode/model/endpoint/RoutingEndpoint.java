@@ -19,15 +19,7 @@ public class RoutingEndpoint {
         return summary;
     }
 
-    public void setSummary(Summary summary) {
-        this.summary = summary;
-    }
-
     public List<Step> getRoute() {
         return route;
-    }
-
-    public void setRoute(List<Step> route) {
-        this.route = route;
     }
 }

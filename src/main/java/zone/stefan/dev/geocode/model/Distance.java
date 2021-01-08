@@ -14,15 +14,7 @@ public class Distance {
         return meters;
     }
 
-    public void setMeters(int meters) {
-        this.meters = meters;
-    }
-
     public String getText() {
         return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 }

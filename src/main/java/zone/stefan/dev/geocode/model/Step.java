@@ -15,23 +15,11 @@ public class Step {
         return instruction;
     }
 
-    public void setInstruction(String instruction) {
-        this.instruction = instruction;
-    }
-
     public String getDistance() {
         return distance;
     }
 
-    public void setDistance(String distance) {
-        this.distance = distance;
-    }
-
     public String getDuration() {
         return duration;
-    }
-
-    public void setDuration(String duration) {
-        this.duration = duration;
     }
 }

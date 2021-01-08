@@ -14,15 +14,7 @@ public class Duration {
         return seconds;
     }
 
-    public void setSeconds(int seconds) {
-        this.seconds = seconds;
-    }
-
     public String getText() {
         return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 }
