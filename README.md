@@ -7,6 +7,18 @@ The GeoCode Routing API SDK for Java enables Java developers to easily work with
 
 ## Installation
 
+#### Maven
+
+Since January 8th, 2021 the Java SDK for the GeoCode Routing API can be installed through the Maven Central Repository.
+
+```
+<dependency>
+  <groupId>zone.stefan.dev</groupId>
+  <artifactId>geocode</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 #### From Git
 
 The Java SDK for the GeoCode Routing API can be installed via [Git](https://git-scm.com/downloads). Run this command from your terminal.
