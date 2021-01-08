@@ -17,15 +17,4 @@ public class HttpStatusCodeException extends Exception {
   public HttpStatusCodeException(final String message) {
     super(message);
   }
-
-  /**
-   * Konstruktor zur Erzeugung einer Instanz von {@link HttpStatusCodeException}
-   * mit einer Beschreibung des Fehlers und der Ursache.
-   *
-   * @param message Beschreibung des Fehlers.
-   * @param cause   Instanz vom Typ {@link Throwable}.
-   */
-  public HttpStatusCodeException(final String message, final Throwable cause) {
-    super(message, cause);
-  }
 }
