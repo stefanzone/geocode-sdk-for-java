@@ -4,13 +4,19 @@ import zone.stefan.dev.geocode.model.Step;
 import zone.stefan.dev.geocode.model.endpoint.GeoCodeEndpoint;
 import zone.stefan.dev.geocode.model.endpoint.RoutingEndpoint;
 
-/*
+/**
  * Main.java
+ *
  * @author Stefan Kühnel, stefan.kuehnel@hm.edu
  * @version 2020-12-31
  */
 
 public class Main {
+  /**
+   * Beispiel zur Verwendung des Java SDK der GeoCode Routing API.
+   *
+   * @param args Kommandozeilen Argumente: Keine.
+   */
   public static void main(String... args) {
     try {
 
@@ -37,6 +43,11 @@ public class Main {
     }
   }
 
+  /**
+   * Gibt alle verfügbaren Informationen zu einer Adresse aus.
+   *
+   * @param address Eine Adresse.
+   */
   public static void getAddress(String address) {
     final GeoCodeEndpoint geoCodeEndpoint = GeoCode.getAddress(address);
 
@@ -58,6 +69,17 @@ public class Main {
     System.out.println("Longitude: " + geoCodeEndpoint.getPosition().getLon());
   }
 
+  /**
+   * Berechnet zu einem Start- und Zielort die korrespondierende Route.
+   *
+   * @param origin      Adresse des Startortes.
+   * @param destination Adresse des Zielortes.
+   * @param mode        Zu nutzendes Transportmittel.
+   *                    - Öffentlicher Nahverkehr: transit
+   *                    - Fußweg: walk
+   *                    - Automobil: drive
+   *                    - Fahrrad: bycicle
+   */
   public static void getRoute(String origin, String destination, String mode) {
     final RoutingEndpoint routingEndpoint = GeoCode.getRoute(origin, destination, mode);
 
@@ -66,18 +88,23 @@ public class Main {
 
     // Information about the origin and destination address.
     System.out.println("Origin Address: " + routingEndpoint.getSummary().getLocation().getOrigin());
-    System.out.println("Destination Address: " + routingEndpoint.getSummary().getLocation().getDestination());
+    System.out.println(
+        "Destination Address: " + routingEndpoint.getSummary().getLocation().getDestination());
 
     // Textual summary of the route.
     System.out.println("Summary: " + routingEndpoint.getSummary().getText());
 
     // Travel time information.
-    System.out.println("Duration in Seconds: " + routingEndpoint.getSummary().getDuration().getSeconds());
-    System.out.println("Duration in Words: " + routingEndpoint.getSummary().getDuration().getText());
+    System.out
+        .println("Duration in Seconds: " + routingEndpoint.getSummary().getDuration().getSeconds());
+    System.out
+        .println("Duration in Words: " + routingEndpoint.getSummary().getDuration().getText());
 
     // Distance information.
-    System.out.println("Distance in Meters: " + routingEndpoint.getSummary().getDistance().getMeters());
-    System.out.println("Distance in Words: " + routingEndpoint.getSummary().getDistance().getText());
+    System.out
+        .println("Distance in Meters: " + routingEndpoint.getSummary().getDistance().getMeters());
+    System.out
+        .println("Distance in Words: " + routingEndpoint.getSummary().getDistance().getText());
 
     // All steps of the calculated route.
     for (Step step : routingEndpoint.getRoute()) {

@@ -5,19 +5,20 @@ import zone.stefan.dev.geocode.model.Position;
 
 /**
  * GeoCodeEndpoint.java
+ *
  * @author Stefan Kühnel, stefan.kuehnel@hm.edu
  * @version 2020-12-31
  */
 
 public class GeoCodeEndpoint {
-    Address address;
-    Position position;
+  Address address;
+  Position position;
 
-    public Address getAddress() {
-        return address;
-    }
+  public Address getAddress() {
+    return address;
+  }
 
-    public Position getPosition() {
-        return position;
-    }
+  public Position getPosition() {
+    return position;
+  }
 }
