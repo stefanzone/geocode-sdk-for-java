@@ -15,7 +15,7 @@ Since January 8th, 2021 the Java SDK for the GeoCode Routing API can be installe
 <dependency>
   <groupId>zone.stefan.dev</groupId>
   <artifactId>geocode</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
