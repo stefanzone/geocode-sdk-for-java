@@ -1,6 +1,7 @@
 # Java SDK for the GeoCode Routing API
 
 ![Java CI with Maven](https://github.com/stefanzone/geocode-sdk-for-java/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Maven Central Release Version Badge](https://maven-badges.herokuapp.com/maven-central/zone.stefan.dev/geocode/badge.svg)
 [![GitHub issues](https://img.shields.io/github/issues/stefanzone/geocode-sdk-for-java)](https://github.com/stefanzone/geocode-sdk-for-java/issues)
 
 The GeoCode Routing API SDK for Java enables Java developers to easily work with the [GeoCode Routing API](https://geocode.dev.stefan.zone) in Java.
