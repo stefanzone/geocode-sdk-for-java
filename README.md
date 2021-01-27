@@ -10,7 +10,7 @@ The GeoCode Routing API SDK for Java enables Java developers to easily work with
 
 #### Maven
 
-In order to use the GeoCode Routing API SDK for Java in your project, please include the following [Maven Central Repository](https://mvnrepository.com/artifact/zone.stefan.dev/geocode/1.0.1) dependency in your `POM.xml`.
+In order to use the GeoCode Routing API SDK for Java in your project, please include the following [Maven Central Repository](https://mvnrepository.com/artifact/zone.stefan.dev/geocode/1.0.1) dependency in your `pom.xml`.
 
 ```xml
 <dependency>
