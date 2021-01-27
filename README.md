@@ -34,7 +34,7 @@ Download the latest version from [here](https://github.com/stefanzone/geocode-sd
 
 ## Usage
 
-> **Note:** The GeoCode Routing API SDK for Java requires [OpenJDK version 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or higher.
+> **Note:** The GeoCode Routing API SDK for Java requires [OpenJDK version 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
 #### Parse the GeoCodeEndpoint for Address MetaData.
 ```java
